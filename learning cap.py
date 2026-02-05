@@ -174,11 +174,8 @@ High-capacity hypothesis:
     loss = {loss(self.high):.8f}
 
 CONCLUSION:
-
 The minimizer exists at finite loss distance.
-
 However, restricted update algebra cannot reach it.
-
 Learning failure arises from representation capacity,
 not optimization instability.
 """
@@ -195,3 +192,4 @@ not optimization instability.
 
 if __name__ == "__main__":
     LearningExperiment().root.mainloop()
+
