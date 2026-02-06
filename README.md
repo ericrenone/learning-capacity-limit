@@ -10,3 +10,4 @@ This project implements an information-geometric perspective on learning. It com
 ## Conclusion
 
 Optimization is not just about the objective function; the resolution of the weights defines the very topology the optimizer "sees."
+The optimizer’s capacity defines the geometry it inhabits. You cannot separate the objective (where you want to go) from the precision (how clearly you can see the path). For Edge-AI, this means the "best possible" solution is not a single point, but a region of irreducible uncertainty dictated by the hardware bottleneck.
