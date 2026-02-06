@@ -1,35 +1,9 @@
-# Capacity as a Learning Limit
+# Capacity Dynamics in Neural Optimization
 
----
+## Core
 
-## Core Result
-**Some targets are unreachable under constrained updates**—even with:
-- Smooth, convex loss
-- Infinite training time
-- Stable gradients
+This project implements an information-geometric perspective on learning. It compares two distinct optimization regimes navigating a non-convex loss surface toward an irrational target ($2^{1/3}$):
 
-**Root cause**: Representation capacity, not optimization.
-
----
-
-## Simulation
-Two learners optimize the same objective:
-
-| Learner       | Update Power         | Outcome            |
-|---------------|----------------------|--------------------|
-| Low capacity  | Restricted algebra   | Stalls permanently |
-| High capacity | Full gradient descent| Converges          |
-
-**Visualization**: Live plot (red = fails, blue = succeeds).
-
----
-
-## Why It Matters
-Explains failures in:
-- Low-rank adaptation (LoRA)
-- Quantized models
-- Federated learning
-
-**Key insight**: Finite distance ≠ learnability.
-
+1.  **High-Capacity (Full Precision):** Uses Nesterov-style momentum and floating-point gradients to traverse the smooth geodesics of the manifold.
+2.  **Restricted (Quantized):** Simulates Edge-AI and low-rank constraints using a digital bottleneck ($n$-bit quantization) and stochastic gradient noise.
 
