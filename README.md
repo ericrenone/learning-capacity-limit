@@ -9,12 +9,4 @@ This project implements an information-geometric perspective on learning. It com
 
 ## Conclusion
 
-- The Map Changes: The precision of your numbers acts like a lens; if the lens is blurry, a smooth mountain path turns into a jagged flight of stairs.
-
-- The Traveler is Limited: An optimizer can only navigate the shapes it is smart enough to "see" and flexible enough to move through.
-
-- The Goal and the View are One: You cannot reach a perfect destination if your tools aren't sharp enough to distinguish it from the surrounding ground.
-
-- Hardware Sets the Rules: In Edge-AI, small chips force you to use "low-detail" goggles, making the world look pixelated and simplified.
-
-- Aim for the Zone, Not the Point: Success isn't about hitting a microscopic bullseye, but finding a "good enough" neighborhood that your hardware can actually recognize.
+Optimization isn’t just about the destination; it’s about the quality of the tools you use to get there. The precision of your data acts like a lens that defines the "map" your AI sees—if the resolution is low, a smooth path turns into a jagged, pixelated landscape. Because Edge-AI hardware has limited power, the optimizer acts like a hiker with blurry goggles, unable to see or reach a microscopic "perfect" point. Ultimately, you cannot separate the goal from the hardware’s ability to see the path, meaning success on small devices is about finding a stable "good enough neighborhood" rather than a single, perfect bullseye.
