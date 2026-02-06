@@ -9,3 +9,15 @@ The High-Capacity (Blue) model demonstrates how momentum works as a sophisticate
 # The Stability of Information Topology
 
 By tracking Fisher Information, the simulation shows how “smarter” models create a more stable relationship with their data. The Restricted model has unpredictable spikes in information density because its rounding errors create friction against the data. The High-Capacity model maintains a smoother trajectory through information space. This suggests that increasing model capacity not only improves accuracy but also makes learning more predictable and less prone to catastrophic failures.
+
+# Conclusions
+
+- Precision Limits Learning: Low-resolution models hit an irreducible noise floor and cannot perfectly match the target.
+
+- Momentum Filters Noise: High-capacity models smooth out stochastic fluctuations, making learning more stable.
+
+- Capacity Stabilizes Information: Tracking Fisher Information shows that bigger models create a predictable, smoother information landscape.
+
+- Memory Boosts Convergence: Retaining past updates makes learning faster, more reliable, and less erratic.
+
+- Compression vs. Accuracy Tradeoff: Saving memory through quantization sacrifices fidelity and ultimate performance.
